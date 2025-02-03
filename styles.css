@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexcontainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 300px;
+    border: 1px;
+    padding: 10px;
+}
+
+#personalImg{
+    height: 200px;
+    width: auto;
+}
+
+#personalInfo{
+    width: auto;
+}
+
+#personalSpace{
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+#featuredProject { 
+    width: auto;
+    height: 70%;
+}
