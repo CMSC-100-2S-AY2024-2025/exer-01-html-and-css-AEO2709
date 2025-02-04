@@ -1,1 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/VhAR7jGx)
+Jun Paul Allan P. Omamos
+BS Computer Science
+2023-11370
+CMSC 100 - U1L
+
+Key Takeaways:
+- Mastery of git is important for a more efficient workflow
+-  Having your own database of templates for certain widgets helps in the website construction process. 
