@@ -1,3 +1,8 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -5,6 +10,114 @@
     align-items: center;
 }
 
-img{
-    width: 100px
+.flexContainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.horizontalFlexContainer {
+    display: flex;
+    width: 90vw;
+    max-width: 100%; 
+    height: auto;
+    padding: 5px;
+    justify-content: center; 
+    overflow-x: auto;
+    white-space: nowrap;
+    align-items: center;
+    gap: 8px;
+}
+
+.box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.projectContainer {
+    min-width: 100 px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+}
+
+.projectImage {
+    border: 1px solid rgb(170, 170, 167);
+    width: 50vw;
+    max-width: 350px;
+    height: auto;
+}
+
+.list{
+    margin-bottom: 16px;
+    margin-left: 5px;
+    line-height: 0px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerLogo{
+    width: 100px;
+    height: auto;
+    display: block;
+}
+
+#featuredProjectImage {
+    width: 70vw !important;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#autobiography {
+    display: flex;
+    width: 95%;
+    max-width: 95%;
+    flex-flow: column;
+    white-space: normal;
+}
+
+#basicInfo {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    line-height: 0px;
+}
+
+#imgAndInfo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+#imgAndInfo img {
+    flex-grow: 1;
+    max-width: 15%;
+    height: auto;
+    object-fit: cover;
+}
+
+#footerLogo {
+    width: auto;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 0px;
 }

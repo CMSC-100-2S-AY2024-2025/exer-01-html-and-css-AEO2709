@@ -1,61 +1,74 @@
 <!DOCTYPE html>
-<html>
-    <html lang="en">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <title>Jun Paul Allan Omamos Portfolio</title>
         <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./motif.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     </head>
     <body>
         <div class="container">
-            <div>
-                <img src="./img/logo.png" alt="Portfolio Logo">
+            <div id="header">
+                <img src="./img/logo.png" alt="Portfolio Logo" id="headerLogo">
                 <h1>Personal Portfolio</h1>
             </div>
             <!-- End of header division -->
-            <div>
+            <div class="flexContainer">
                 <h2>Featured Project</h2>
-                <img src="./img/featuredProject.png" alt="Featured Project Image">
+                <img src="./img/featuredProject.png" alt="Featured Project Image" id="featuredProjectImage">
             </div>
             <!-- End of featured project division     -->
-            <div>
+            <div class="flexContainer">
                 <h2>Other Projects</h2>
-                <div>
-                    <button><i class="fa-solid fa-chevron-left"></i></button>
-                    <div><img src="./img/sample1.png" alt="Sample Porject 1"><h4>Sample Project 1</h4></div>
-                    <div><img src="./img/sample2.png" alt="Sample Porject 2"><h4>Sample Project 2</h4></div>
-                    <div><img src="./img/sample3.png" alt="Sample Porject 3"><h4>Sample Project 3</h4></div>
-                    <div><img src="./img/sample4.png" alt="Sample Porject 4"><h4>Sample Project 4</h4></div>
-                    <button><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="horizontalFlexContainer">
+                    <div class="projectContainer"><img src="./img/sample1.png" alt="Sample Porject 1" class="projectImage"><h4>Sample Project 1</h4></div>
+                    <div class="projectContainer"><img src="./img/sample2.png" alt="Sample Porject 2" class="projectImage"><h4>Sample Project 2</h4></div>
+                    <div class="projectContainer"><img src="./img/sample3.png" alt="Sample Porject 3" class="projectImage"><h4>Sample Project 3</h4></div>
+                    <div class="projectContainer"><img src="./img/sample4.png" alt="Sample Porject 4" class="projectImage"><h4>Sample Project 4</h4></div>
                 </div>
             </div>
             <!-- End of other projects Division -->
-            <div>
-                <div>
-                    <h2>Autobiography</h2>
+            <div class="flexContainer" id="autobiography">
+                <h2>Autobiography</h2>
+                <div id="imgAndInfo">
                     <img src="./img/1x1.png" alt="1x1 Image">
-                    <p>My auto biography</p>
+                    <div id="basicInfo">
+                        <h5 class="list">Jun Paul Allan P. Omamos</h4>
+                        <h5 class="list">BS Computer Science Student</h4>
+                        <h5 class="list">UP Los Banos</h4>
+                    </div>
                 </div>
-                <!-- End of authobiography -->
-                <div>
-                    <h2>Skills</h2>
-                    <p>Skill 1</p>
-                    <p>Skill 2</p>
-                    <p>Skill 3</p>
-                    <p>Skill 4</p>
-                </div>
-                <!-- End of skills -->
+                <p>Driven by curiosity and a passion for technology, I have always been fascinated by how things work. My interest in problem-solving led me to explore programming, and though I had no prior experience before university, my studies have equipped me with a strong foundation in software development and web technologies. I am particularly passionate about creating user-friendly digital experiences and continuously seek opportunities to refine my skills. With a commitment to learning and adaptability, I aspire to contribute to innovative projects that solve real-world problems and make a meaningful impact in the field of technology.</p>
             </div>
-            <!-- End of personal information -->
-            <div>
-                <img src="./img/logo.png" alt="Portfolio Logo">
-                <p>Jun Paul Allan P. Omamos</p>
-                <i class="fa-solid fa-envelope"></i>
-                <p>jpomamos1@up.edu.ph</p>
-                <i class="fa-solid fa-phone"></i>
-                <p>0912-345-6789</p>
+            <!-- End of authobiography -->
+            <div class="flexContainer">
+                <h2>Hard Skills</h2>
+                <p>Proficiency in Python and C</p>
+                <p>UI and UX </p>
+                <p>Algorithms</p>
+                <h2>Soft Skills</h2>
+                <p>Problem-solving</p>
+                <p>Adaptability</p>
+                <p>Attention to details</p>
+            </div>
+            <!-- End of skills -->
+            <div class="horizontalFlexContainer">
+                <img src="./img/logo.png" alt="Portfolio Logo" id="footerLogo">
+                <div>
+                    <p class="list">Jun Paul Allan P. Omamos</p>
+                    <div class="box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="list"> jpomamos1@up.edu.ph</p>
+                    </div>
+                    <div class="box">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="list"> 0912-345-6789</p>
+                    </div>
+                    <a href="#header">Back to Top</a>
+                </div>
             </div>
         </div>
     </body>
